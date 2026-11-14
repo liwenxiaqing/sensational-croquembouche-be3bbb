@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "node --experimental-default-type=module --test tests/*.test.mjs",
+    "test:transport": "node --experimental-default-type=module --test tests/api-transport.test.mjs",
+    "test:audio": "node --experimental-default-type=module --test tests/audio-manager.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^7.0.0"
+  }
+}
